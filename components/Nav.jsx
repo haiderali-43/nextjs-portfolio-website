@@ -35,6 +35,7 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 
 const Nav = () => {
+  const router = useRouter()
   return (
     <nav>
       <div>
