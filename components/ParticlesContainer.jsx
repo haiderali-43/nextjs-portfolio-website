@@ -80,7 +80,7 @@ const ParticlesContainer = () => {
             value: 0.5,
           },
           shape: {
-            type: "circel",
+            type: "circle",
           },
           size: {
             value: { min: 1, max: 5 },
