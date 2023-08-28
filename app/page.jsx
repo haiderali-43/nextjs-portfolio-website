@@ -7,6 +7,7 @@ import Image from "next/image";
 import ParticlesContainer from "../components/ParticlesContainer";
 import ProjectsBtn from "../components/ProjectsBtn";
 import Avatar from "../components/Avatar";
+import TextAnimation from "../components/TextAnimation";
 
 // farmer motion
 import { motion } from "framer-motion";
@@ -29,8 +30,10 @@ const page = () => {
             exit="hidden"
             className="h1"
           >
-            Transforming ideas into <br />{" "}
-            <span className="text-accent">Digital Reality</span>
+            I will do <br />{" "}
+            <span className="text-accent text-2xl">
+              <TextAnimation />
+            </span>
           </motion.h1>
           {/* subtitle */}
           <motion.p
