@@ -8,7 +8,8 @@ const TopLeftImg = () => {
         src="/top-left-img.png"
         width={400}
         height={400}
-        alt="top-left-img"
+        
+        alt="Top left Image"
       
       />
     </div>
